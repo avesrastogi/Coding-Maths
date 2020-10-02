@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int number1, number2;
-    cin >> number1 >> number2;
+    cin>>number1>>number2;
     
     while(number1 != number2)
     {
@@ -14,6 +14,6 @@ int main()
             number2 -= number1;
     }
 
-    cout << "GCD = " << number1;
+    cout <<"GCD = "<<number1;
     return 0;
 }
